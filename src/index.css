@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.kumbh-sans-regular {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "YOPQ" 300;
+}
+
+.kumbh-sans-bold {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "YOPQ" 300;
+}
+
+#backgroundImage{
+  height: 100vh; 
+  background: url('/assets/background.png') center / cover fixed;
+}
+
+#image1, #image2, #image3{
+  min-width: 1000px;
+  scale: 1.2;
+}
