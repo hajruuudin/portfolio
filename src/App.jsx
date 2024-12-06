@@ -1,8 +1,14 @@
 import BackgroundContainer from "./components/Background"
+import MainContainer from "./components/MainContainer"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <BackgroundContainer />
+    <>
+      <BackgroundContainer />
+      <MainContainer />
+      <Navbar/>
+    </>
   )
 }
 
