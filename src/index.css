@@ -5,7 +5,7 @@
 .kumbh-sans-regular {
   font-family: "Kumbh Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "YOPQ" 300;
@@ -25,7 +25,17 @@
   background: url('/assets/background.png') center / cover fixed;
 }
 
-#image1, #image2, #image3{
+#image1, #image2, #image3, #image4{
   min-width: 1000px;
   scale: 1.2;
+}
+
+.standard-margin{
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.standard-padding{
+  padding-left: 6em;
+  padding-right: 6em;
 }
