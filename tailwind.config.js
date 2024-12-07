@@ -11,17 +11,28 @@ export default {
           "dark-container" : "#001F22",
           "dark-one" : "#01424F",
           "dark-two" : "#003842",
-          "dark-three" : "#002A32"
+          "dark-three" : "#002A32",
+          "light" : "#00535B"
         }
       },
       animation: {
-        'slow-spin': 'spin-slow 5s ease-in-out infinite',
+        'slow-spin': 'spin-slow 10s ease-in-out infinite',
+        'slow-scroll' : 'scroll-slow 10s linear infinite',
+        'body-opacity' : 'fadeIn 0.2s ease-in'
       },
       keyframes: {
         'spin-slow': {
-          '0%': { transform: 'scale(1.0)' },
-          '50%' : {transform: 'scale(3.0)'},
-          '100%': { transform: 'scale(1.0)' },
+          '0%': { transform: 'rotate(0deg)' },
+          '50%': { transform: 'rotate(5deg)' },
+          '100%': { transform: 'rotate(0deg)' }
+        },
+        'scroll-slow': {
+          '0%' : { transform: 'translateX(0%)'},
+          '100%' : { transform: 'translateX(-100%)'}
+        },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
       },
     },

@@ -20,10 +20,10 @@
     "YOPQ" 300;
 }
 
-#backgroundImage{
+/* #backgroundImage{
   height: 100vh; 
   background: url('/assets/background.png') center / cover fixed;
-}
+} */
 
 #image1, #image2, #image3, #image4{
   min-width: 1000px;
@@ -38,4 +38,8 @@
 .standard-padding{
   padding-left: 6em;
   padding-right: 6em;
+}
+
+.logo:hover{
+  transform: rotate(5deg) scale(1.1);
 }
