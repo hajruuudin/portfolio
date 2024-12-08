@@ -1,8 +1,10 @@
+import Heading2 from "../ui/Heading2";
+
 export default function AboutMe(){
     return(
         <>
-            <div id="aboutMe" className="standard-padding pb-20 pt-20">
-            <h2 className="text-4xl sm:text-7xl kumbh-sans-bold rounded-3xl pl-7 pr-7 bg-antique-dark-one inline">About Me</h2>
+            <div id="aboutMe" className="standard-padding pb-20 pt-20 bg-antique-dark-container standard-margin">
+            <Heading2 text={"About me"} />
                 <section id="basic-info" className="flex flex-col md:flex-row mt-20">
                     <div className="flex flex-col items-center md:items-end jusitfy-center w-full md:w-1/2">
                         <h3 className="text-3xl lg:text-5xl kumbh-sans-bold">A little about me...</h3>
@@ -31,8 +33,8 @@ export default function AboutMe(){
 
             
             <div id="workflow" className="standard-padding pb-20 pt-20 bg-antique-dark-three">
-            <h2 className="text-4xl sm:text-7xl kumbh-sans-bold rounded-3xl pl-7 pr-7 bg-antique-dark-one inline">My Workflow</h2>
-                    <section id="howIWork" className="flex flex-col md:flex-row mt-20">
+            <Heading2 text={"My Workflow"}/>
+            <section id="howIWork" className="flex flex-col md:flex-row mt-10 md:mt-20">
                         <div className="flex flex-col items-center md:items-start jusitfy-center w-full md:w-1/2 md:mr-6 pb-10">
                             <h3 className="text-3xl lg:text-5xl kumbh-sans-bold">How I Work</h3>
                             <p className="text-2xl lg:text-3xl text-center md:text-start pb-4">
@@ -49,15 +51,15 @@ export default function AboutMe(){
             </div>
 
             <div id="techstack" className="standard-padding pb-20 pt-20 bg-antique-dark-container">
-            <h2 className="text-4xl sm:text-7xl kumbh-sans-bold rounded-3xl pl-7 pr-7 bg-antique-dark-one inline">Tech Stack & Skills</h2>
-                    <section id="techStackInfo" className="flex flex-col mt-20">
+            <Heading2 text={"Tech Stack & Skills"}/>                   
+             <section id="techStackInfo" className="flex flex-col mt-10 md:mt-20">
                         <p className="text-2xl lg:text-3xl text-center md:w-1/2 md:m-auto pb-4">
                             Learning a large number of skills is not my priority, as I like master one thing at a time and only then move on to the next. Because of this, I like to keep my Tech Stack relatively small, but very useful. 
                         </p>
 
                         <div className="flex flex-col mt-10">
                             <h4 className="text-4xl lg:text-5xl kumbh-sans-bold pb-3">Languages & Frameworks</h4>
-                            <div className="-ml-24 w-screen flex flex-row justify-start sm:justify-center sm:flex-wrap overflow-x-auto sm:overflow-hidden">
+                            <div className="-ml-16 md:-ml-24 w-screen flex flex-row justify-start sm:justify-center sm:flex-wrap overflow-x-auto sm:overflow-hidden">
                                 <img className="logo m-1 w-28 sm:w-1/4 md:w-1/6 xl:w-1/12 transition-all bg-antique-dark-three hover:bg-antique-dark-one rounded-xl p-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
                                 <img className="logo m-1 w-28 sm:w-1/4 md:w-1/6 xl:w-1/12 transition-all bg-antique-dark-three hover:bg-antique-dark-one rounded-xl p-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
                                 <img className="logo m-1 w-28 sm:w-1/4 md:w-1/6 xl:w-1/12 transition-all bg-antique-dark-three hover:bg-antique-dark-one rounded-xl p-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
@@ -73,7 +75,7 @@ export default function AboutMe(){
 
                         <div className="flex flex-col mt-10">
                             <h4 className="text-4xl lg:text-5xl kumbh-sans-bold pb-3">Tools & Software</h4>
-                            <div className="-ml-24 w-screen flex flex-row justify-start sm:justify-center sm:flex-wrap overflow-x-auto sm:overflow-hidden ">
+                            <div className="-ml-16 md:-ml-24 w-screen flex flex-row justify-start sm:justify-center sm:flex-wrap overflow-x-auto sm:overflow-hidden ">
                                 <img className="logo m-1 w-28 sm:w-1/4 md:w-1/6 xl:w-1/12 transition-all bg-antique-dark-three hover:bg-antique-dark-one rounded-xl p-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
                                 <img className="logo m-1 w-28 sm:w-1/4 md:w-1/6 xl:w-1/12 transition-all bg-antique-dark-three hover:bg-antique-dark-one rounded-xl p-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
                                 <img className="logo m-1 w-28 sm:w-1/4 md:w-1/6 xl:w-1/12 transition-all bg-antique-dark-three hover:bg-antique-dark-one rounded-xl p-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
@@ -86,9 +88,9 @@ export default function AboutMe(){
                     </section>
             </div>
 
-            <div id="projects" className="standard-padding pb-20 pt-20 bg-antique-light">
-            <h2 className="text-4xl sm:text-7xl kumbh-sans-bold rounded-3xl pl-7 pr-7 bg-antique-dark-one inline">Projects & Work</h2>
-                    <section id="projects" className="flex flex-col xl:flex-row mt-20">
+            <div id="projects" className="standard-padding pb-32 pt-20 bg-antique-light">
+            <Heading2 text={"Projects & Work"}/>
+                    <section id="projects" className="flex flex-col xl:flex-row mt-10 md:mt-20">
                         <div className="flex flex-col items-center xl:items-start justify-center w-full xl:w-1/2 md:mr-6 pb-10">
                             <p className="text-2xl lg:text-3xl text-center xl:text-end pb-4">
                                 Over the course of my education I’ve taken countless courses and worked on several different projects. I’m someone who loves to learn by doing, so projects are not something I’m short of. Time has been a problem for me due to personal reasons, so It might not look like a lot, but I am giving it my best.
@@ -98,10 +100,12 @@ export default function AboutMe(){
                             </p>
                         </div>
                         <div className="w-full xl:w-1/2 flex flex-row justify-center items-center">
-                            <button className="w-full h-40 sm:h-60 bg-blue-500 xl:h-1/2 rounded-l-3xl xl:bg-antique-dark-two hover:bg-blue-500 transition tranisiton-all">CODING</button>
-                            <button className="w-full h-40 sm:h-60 bg-purple-700 xl:h-1/2 rounded-r-3xl xl:bg-antique-dark-one hover:bg-purple-700 transition-all">DESIGN</button>
+                            <button className="w-full h-40 sm:h-60 bg-blue-500 xl:h-1/2 rounded-l-3xl xl:bg-antique-dark-two hover:bg-blue-500 transition text-2xl tranisiton-all">Ｃｏｄｉｎｇ</button>
+                            <button className="w-full h-40 sm:h-60 bg-purple-700 xl:h-1/2 rounded-r-3xl xl:bg-antique-dark-one hover:bg-purple-700 text-2xl transition-all">𝒟𝑒𝓈𝒾𝑔𝓃</button>
                         </div>
                     </section>
+                    
+                    
             </div>
         </>
     )

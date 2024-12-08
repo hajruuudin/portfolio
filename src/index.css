@@ -31,8 +31,8 @@
 }
 
 .standard-margin{
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .standard-padding{
@@ -40,6 +40,29 @@
   padding-right: 6em;
 }
 
+@media (max-width: 768px){
+  .standard-padding{
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+}
+
 .logo:hover{
   transform: rotate(5deg) scale(1.1);
+}
+
+.z-999{
+  z-index: 999;
+}
+
+@media (min-width: 768px){
+  .mask-custom-shape {
+    mask-image: radial-gradient(circle, black, transparent);
+    -webkit-mask-image: radial-gradient(circle, black, transparent);
+  }
+}
+
+#scrollContainer{
+  padding-left: 0;
+  padding-right: 0;
 }

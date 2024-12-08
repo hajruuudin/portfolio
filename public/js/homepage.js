@@ -15,6 +15,7 @@ document.addEventListener("scroll", () => {
     imagebg.style.transform = `translateY(${scrollPosition * 0.1}px)`;
     header.style.transform = `translateY(${scrollPosition * 0.3}px)`;
     header.style.opacity = `${1 - scrollPosition * 0.002}`;
+    imagebg.style.opacity = `${1 - scrollPosition * 0.001}`;
     
     if(window.scrollY > navbar.scrollHeight){
         navbar.style.transform = `translateY(-120px)`
