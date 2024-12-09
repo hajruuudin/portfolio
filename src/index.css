@@ -66,3 +66,43 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+#workflowContainer{
+  background-image: url(/public/assets/bgs/workflow.png);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#aboutMeContainer, #codingInfoContainer{
+  background-image: url(/public/assets/bgs/aboutme.png);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#techStackContainer{
+  background-image: url(/public/assets/bgs/skills.png);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#projectsContainer{
+  background-image: url(/public/assets/bgs/projects.png);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.standard-bg{
+  background-image: url(/public/assets/bgs/other.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

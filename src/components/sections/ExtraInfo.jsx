@@ -4,7 +4,7 @@ import Heading2 from "../ui/Heading2";
 export default function ExtraInfo(){
     return(
         <>
-            <div className="bg-antique-dark-container w-screen standard-padding flex flex-col items-center">
+            <div id="extraInfoContainer" className="standard-bg bg-antique-dark-container w-screen standard-padding flex flex-col items-center">
                 <div id="extraInfo" className="w-full xl:w-3/4 pb-20 pt-20 standard-margin">
                     <Heading2 text={"Other Related Info"} />
                     <p className="text-2xl lg:text-3xl text-center pb-4 pt-4">

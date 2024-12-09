@@ -11,7 +11,6 @@ function App() {
       <MainContainer />
       {/* <img className="w-full h-1/6" src="/assets/endmain.png" alt="" /> */}
       <Navbar/>
-      {/* <img className="w-full" src="/assets/endmain.png" alt="" /> */}
       <Footer/>
       <Gradient />
     </>
