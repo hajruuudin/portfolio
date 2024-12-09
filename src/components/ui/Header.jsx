@@ -6,7 +6,7 @@ export default function Header(){
                     <h1 className="text-center text-5xl sm:text-6xl xl:text-7xl kumbh-sans-bold pt-5">Hajrudin Imamovic</h1>
                     <p className="text-center text-xl lg:text-3xl pt-2">aspiring Software Developer & UI designer</p>
                 </div>
-                <img className="w-72" src="/assets/signature.png" alt="" />
+                <img className="w-72" src="/portfolio/assets/signature.png" alt="" />
         </div>
     )
 }

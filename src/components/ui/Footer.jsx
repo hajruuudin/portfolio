@@ -10,7 +10,7 @@ export default function Footer(){
                     </span>
                 </a>
                 <a className="text-white text-4xl flex flex-col sm:flex-row items-center" href="https://github.com/hajruuudin" target="new">
-                  <img src="/assets/emaillogo.png" alt="" className="w-12 inline" />
+                  <img src="/portfolio/assets/emaillogo.png" alt="" className="w-12 inline" />
                     <span className="kumbh-sans text-2xl md:text-4xl ml-2">
                         hajruuudin@gmail.com
                     </span>
@@ -18,7 +18,7 @@ export default function Footer(){
                 <p className="text-white mt-3">Icons by: <a href="https://devicon.dev/" target="new">https://devicon.dev/</a></p>
                 <p className="text-white">Portfolio Design and Implementation by: Me!</p>
             </div>
-            <img className="w-72" src="/assets/signature.png" alt="" />
+            <img className="w-72" src="/portfolio/assets/signature.png" alt="" />
            
         </footer>
     )
