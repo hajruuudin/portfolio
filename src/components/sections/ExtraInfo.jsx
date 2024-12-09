@@ -15,7 +15,7 @@ export default function ExtraInfo(){
                 <section id="main" className="w-full xl:w-2/3 flex flex-col mb-20">
                     <div className="flex flex-col xl:flex-row items-center pb-10">
                         <div className="w-full xl:w-1/2 flex flex-row justify-center items-center mb-4">
-                            <img src="/assets/setsLogo.png" alt="" className="w-94"/>
+                            <img src="/portfolio/assets/setsLogo.png" alt="" className="w-94"/>
                         </div>
                         <div className="w-full xl:w-1/2 flex flex-col items-center">
                             <h3 className="text-3xl xl:text-4xl kumbh-sans-bold mb-4">High School of Electrical Engineering</h3>
@@ -29,7 +29,7 @@ export default function ExtraInfo(){
                     
                     <div className="flex flex-col xl:flex-row items-center pb-10">
                         <div className="w-full xl:w-1/2 flex flex-row justify-center items-center mb-4">
-                            <img src="/assets/ibulogo.png" alt="" className="w-94"/>
+                            <img src="/portfolio/assets/ibulogo.png" alt="" className="w-96"/>
                         </div>
                         <div className="w-full xl:w-1/2 flex flex-col items-center">
                             <h3 className="text-3xl xl:text-4xl kumbh-sans-bold mb-4">International BURCH University</h3>
@@ -51,11 +51,11 @@ export default function ExtraInfo(){
                     <h3 className="text-3xl xl:text-4xl kumbh-sans-bold mb-4 mt-4">Certificates & Activity</h3>
                     <div className="flex flex-col xl:flex-row items-center pb-10">
                         <div className="w-full flex flex-row justify-center items-center mb-4">
-                            <img src="/assets/webdev.jpg" alt="" className="w-96 xl:w-2/3 rounded-2xl"/>
+                            <img src="/portfolio/assets/webdev.jpg" alt="" className="w-96 xl:w-2/3 rounded-2xl"/>
                         </div>
                     </div>
                 </section>
-                {/* <img className="w-screen" src="/assets/endmain.png" alt="" /> */}
+                {/* <img className="w-screen" src="/portfolio/assets/endmain.png" alt="" /> */}
             </div>
         </>
     )

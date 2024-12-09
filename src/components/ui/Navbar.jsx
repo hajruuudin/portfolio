@@ -15,7 +15,7 @@ export default function Navbar(){
     return(
         <div id="navbarContainer" className="relative -bottom-20 sticky z-999 m-auto w-2/3 xl:w-1/2 h-16 flex flex-row justify-center transition-all duration-500 ease-in-out text-white text-xl kumbh-sans-bold rounded-lg ">
             <NavLink 
-                to={"/"}
+                to={"/portfolio/about"}
                 onClick={() => windowScroll()}
                 className={({isActive}) => 
                     isActive
@@ -28,7 +28,7 @@ export default function Navbar(){
                 </buttton>
             </NavLink>
             <NavLink 
-                to={"/code"}
+                to={"/portfolio/code"}
                 onClick={() => windowScroll()}
                 className={({isActive}) => 
                     isActive
@@ -41,7 +41,7 @@ export default function Navbar(){
                 </buttton>
             </NavLink>
             <NavLink 
-                to={"/design"}
+                to={"/portfolio/design"}
                 onClick={() => windowScroll()}
                 className={({isActive}) => 
                     isActive
@@ -54,7 +54,7 @@ export default function Navbar(){
                 </buttton>
             </NavLink>
             <NavLink 
-                to={"/info"}
+                to={"/portfolio/info"}
                 onClick={() => windowScroll()}
                 className={({isActive}) => 
                     isActive

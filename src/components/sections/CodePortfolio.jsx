@@ -42,13 +42,13 @@ export default function CodePortfolio(){
                 <Heading2 text={"Projects & Work"} />
                     <section id="basic-info" className="flex flex-col 2xl:flex-row items-center mt-20">
                         <div className="2xl:hidden -ml-12 sm:ml-0 w-screen sm:w-full 2xl:w-1/2 h-full m-auto flex flex-row 2xl:flex-wrap items-center justify-start sm:justify-center  overflow-x-auto 2xl:overflow-hidden">
-                            <img src="/assets/yelpcamp/yelpcamp01.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
-                            <img src="/assets/yelpcamp/yelpcamp02.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
-                            <img src="/assets/yelpcamp/yelpcamp03.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
-                            <img src="/assets/yelpcamp/yelpcamp04.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/yelpcamp/yelpcamp01.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/yelpcamp/yelpcamp02.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/yelpcamp/yelpcamp03.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/yelpcamp/yelpcamp04.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
                         </div>
                         <div className="hidden 2xl:flex 2xl:w-1/2 h-full flex flex-col items-end mr-10">
-                            <img src="/assets/yelpcamp/yelpcamp01.png" alt="" className="2xl:w-image 2xl:h-image rounded-2xl"/>
+                            <img src="/portfolio/assets/yelpcamp/yelpcamp01.png" alt="" className="2xl:w-image 2xl:h-image rounded-2xl"/>
                         </div>
                         <div className="w-full 2xl:w-1/2 h-full flex flex-col justify-center items-center 2xl:items-start">
                             <Heading3Code text={"YelpCamp"} gitHub={"yelp-camp-project"}/>
@@ -65,10 +65,10 @@ export default function CodePortfolio(){
                                 <CodeIcon code={'Bootstrap'}/>
                             </div>
                             <div className="hidden 2xl:inline flex flex-row items-center justify-start">
-                                <img src="/assets/yelpcamp/yelpcamp01.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
-                                <img src="/assets/yelpcamp/yelpcamp02.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
-                                <img src="/assets/yelpcamp/yelpcamp03.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
-                                <img src="/assets/yelpcamp/yelpcamp04.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
+                                <img src="/portfolio/assets/yelpcamp/yelpcamp01.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
+                                <img src="/portfolio/assets/yelpcamp/yelpcamp02.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
+                                <img src="/portfolio/assets/yelpcamp/yelpcamp03.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
+                                <img src="/portfolio/assets/yelpcamp/yelpcamp04.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
                             </div>
                             <p className="text-2xl 2xl:text-4xl text-center 2xl:text-start  pb-4">
                                 As part of a UDEMY Web Development course, this project is one relatively large-scale applications that focuses on utilizing all the most crucial concepts of a working Web Application: <strong>REST-ful APi development, Responsive Design and User Interaction, Quick Database Quierying and performance, Authentication and Authorization and other cool concepts like Image Upload, GeoCoding, Security & Validaiton...</strong> The application uses EJS templating, an old method for developing frontent, along with Node - Express - MongoDB for the backend. In comparison to the Course Project, I added some aditional functionality to make the application unique and more complex.
@@ -78,13 +78,13 @@ export default function CodePortfolio(){
 
                     <section id="basic-info" className="flex flex-col 2xl:flex-row items-center mt-20">
                         <div className="2xl:hidden -ml-12 sm:ml-0 w-screen sm:w-full 2xl:w-1/2 h-full m-auto flex flex-row 2xl:flex-wrap items-center justify-start sm:justify-center  overflow-x-auto 2xl:overflow-hidden">
-                            <img src="/assets/taskmanager/taskmanager01.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
-                            <img src="/assets/taskmanager/taskmanager02.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
-                            <img src="/assets/taskmanager/taskmanager03.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
-                            <img src="/assets/taskmanager/taskmanager04.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/taskmanager/taskmanager01.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/taskmanager/taskmanager02.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/taskmanager/taskmanager03.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/taskmanager/taskmanager04.png" alt="" className="w-64 2xl:h-1/4 border-2 rounded-2xl m-3 object-cover"/>
                         </div>
                         <div className="2xl:order-2 hidden 2xl:flex 2xl:w-1/2 h-full flex flex-col items-start ml-10">
-                            <img src="/assets/taskmanager/taskmanager01.png" alt="" className="2xl:w-image 2xl:h-image rounded-2xl"/>
+                            <img src="/portfolio/assets/taskmanager/taskmanager01.png" alt="" className="2xl:w-image 2xl:h-image rounded-2xl"/>
                         </div>
                         <div className="2xl:order-1 w-full 2xl:w-1/2 h-full flex flex-col justify-center items-center 2xl:items-end">
                             <Heading3Code text={"Task Manager"} gitHub={"three-small-apps"}/>
@@ -101,10 +101,10 @@ export default function CodePortfolio(){
                                 <CodeIcon code={'Tailwind'}/>
                             </div>
                             <div className="hidden 2xl:inline flex flex-row items-center justify-start">
-                                <img src="/assets/taskmanager/taskmanager01.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
-                                <img src="/assets/taskmanager/taskmanager02.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
-                                <img src="/assets/taskmanager/taskmanager03.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
-                                <img src="/assets/taskmanager/taskmanager04.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
+                                <img src="/portfolio/assets/taskmanager/taskmanager01.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
+                                <img src="/portfolio/assets/taskmanager/taskmanager02.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
+                                <img src="/portfolio/assets/taskmanager/taskmanager03.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
+                                <img src="/portfolio/assets/taskmanager/taskmanager04.png" alt="" className="w-40 inline rounded-2xl m-3 object-cover"/>
                             </div>
                             <p className="text-2xl 2xl:text-4xl text-center 2xl:text-end  pb-4">
                                 This is my first official attempt at using React as a frontend framework, hence the syntax and the code itself is not the greatest. As part of a three - small - application project, one of them is this task manager. As the project above, it uses the MERN stack, except this time the frontend is built with React + React Router package. It covers functions such as: <strong>full CRUD for adding tasks and lists, single page application navigation, responsive UI design...</strong> The styling for this application is Tailwind CSS, along with some custom classes added for preference.
@@ -114,9 +114,9 @@ export default function CodePortfolio(){
 
                     <section id="basic-info" className="flex flex-col 2xl:flex-row mt-20">
                         <div className="-ml-12 sm:ml-0 w-screen sm:w-full 2xl:w-1/2 h-full m-auto flex flex-row 2xl:flex-wrap items-center justify-center 2xl:justify-end 2xl:mr-4  overflow-x-auto 2xl:overflow-hidden">
-                            <img src="/assets/entertainer/entertainer01.png" alt="" className="w-48 2xl:h-1/4 rounded-2xl m-3 object-cover"/>
-                            <img src="/assets/entertainer/entertainer02.png" alt="" className="w-48 2xl:h-1/4 rounded-2xl m-3 object-cover"/>
-                            <img src="/assets/entertainer/entertainer03.png" alt="" className="w-48 2xl:h-1/4 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/entertainer/entertainer01.png" alt="" className="w-48 2xl:h-1/4 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/entertainer/entertainer02.png" alt="" className="w-48 2xl:h-1/4 rounded-2xl m-3 object-cover"/>
+                            <img src="/portfolio/assets/entertainer/entertainer03.png" alt="" className="w-48 2xl:h-1/4 rounded-2xl m-3 object-cover"/>
                         </div>
                         <div className="w-full 2xl:w-1/2 flex flex-col justiy-center items-center 2xl:items-start">
                             <Heading3Code text={"Entertain.er"} gitHub={"MobileProject2024---ENTERTAIN.ER"}/>
@@ -139,7 +139,7 @@ export default function CodePortfolio(){
 
                     <section id="basic-info" className="flex flex-col 2xl:flex-row items-center pb-32 mt-20">
                         <div className="2xl:order-2 2xl:w-1/2 h-full flex flex-col items-start ml-10">
-                            <img src="/assets/mystylist/mystylist.png" alt="" className="w-image rounded-2xl"/>
+                            <img src="/portfolio/assets/mystylist/mystylist.png" alt="" className="w-image rounded-2xl"/>
                         </div>
                         <div className="2xl:order-1 w-full 2xl:w-1/2 flex flex-col justify-center items-center 2xl:items-end">
                             <Heading3Code text={"MyStylist - WIP"} gitHub={"WebProgrammingProject2024"}/>

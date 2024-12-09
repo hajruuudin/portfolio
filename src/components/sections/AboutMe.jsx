@@ -15,7 +15,7 @@ export default function AboutMe(){
                             </p>
                         </div>
                         <div className="w-full md:w-1/2 flex flex-row justify-center lg:ml-24 lg:justify-start items-center">
-                            <img className="w-72 h-72 lg:w-96 lg:h-96 rounded-2xl" src="/assets/me.png" alt="" />
+                            <img className="w-72 h-72 lg:w-96 lg:h-96 rounded-2xl" src="/portfolio/assets/me.png" alt="" />
                         </div>
                     </section>
 
