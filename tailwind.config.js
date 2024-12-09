@@ -35,6 +35,12 @@ export default {
           '100%': { opacity: '1' },
         },
       },
+      width: {
+        'image': '650px'
+      },
+      height: {
+        'image': '650px'
+      },
     },
   },
   plugins: [],

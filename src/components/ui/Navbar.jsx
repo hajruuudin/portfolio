@@ -2,11 +2,14 @@ import { NavLink, useNavigate } from "react-router-dom"
 
 export default function Navbar(){
     const windowScroll = () => {
-        window.scroll({
-            top: 700,
-            left: 0,
-            behavior: "smooth"
-        })
+        setTimeout(() => {
+            window.scroll({
+                top: 700,
+                left: 0,
+                behavior: "smooth"
+            })
+        }, 20)
+        
     }
 
     return(
