@@ -1,28 +1,30 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './App.jsx';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+
+import App from './App.jsx';
 import AboutMe from './components/sections/AboutMe.jsx';
 import CodePortfolio from './components/sections/CodePortfolio.jsx';
 import DesignPortfolio from './components/sections/DesignPortfolio.jsx';
 import ExtraInfo from './components/sections/ExtraInfo.jsx';
+import ErrorPage from './components/ErrorPage.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <HashRouter>
-      <Routes>
-        {/* Base path with /portfolio */}
-        <Route path="/" element={<App />}>
-          {/* Redirect /portfolio to /portfolio/about */}
-          <Route path="/" element={<Navigate to="/portfolio/about" />} />
-          {/* Define child routes */}
-          <Route path="/portfolio/about" element={<AboutMe />} />
-          <Route path="/portfolio/code" element={<CodePortfolio />} />
-          <Route path="/portfolio/design" element={<DesignPortfolio />} />
-          <Route path="/portfolio/info" element={<ExtraInfo />} />
+<StrictMode>
+  <HashRouter>
+    <Routes>
+      <Route path="/" element={<App />} errorElement={<ErrorPage />}>
+        <Route index element={<Navigate to="/portfolio/about" />} />
+        <Route path="portfolio">
+          <Route path="about" element={<AboutMe />} />
+          <Route path="code" element={<CodePortfolio />} />
+          <Route path="design" element={<DesignPortfolio />} />
+          <Route path="info" element={<ExtraInfo />} />
         </Route>
-      </Routes>
-    </HashRouter>
-  </StrictMode>
+      </Route>
+    </Routes>
+  </HashRouter>
+</StrictMode>
+
 );
