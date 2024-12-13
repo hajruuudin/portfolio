@@ -51,7 +51,7 @@ export default function AboutMe() {
                                 For what it is valued, I’ve always pushed my grades and academic performance to the maximum of its possibilities. I’ve never found it hard to adapt to any course/task/exam/project, and all of my professors can attest to that. During my education I’ve always had top of the class grades, and competed in various tech competitions, representing my school and my own knowledge as well as I can.                    </p>
                         </div>
                         <div className="md:order-1 w-full md:w-1/2 flex flex-row justify-center lg:mr-24 lg:justify-end items-center">
-                            <div className="flex flex-col items-center md:items-end text-end">
+                            <div className="flex flex-col items-center text-end">
                                 <EducationInfo
                                     name={"High School of Electrical Engineering"}
                                     location={"Sarajevo, BA"}
@@ -99,13 +99,13 @@ export default function AboutMe() {
             <div id="techStackContainer" className="pb-20 pt-20 bg-antique-dark-container">
                 <div id="techstack" className="standard-padding m-auto w-full xl:w-2/3">
                     <Heading2 text={"Tech Stack & Skills"} />
-                    <section id="techStackInfo" className="flex flex-col justify-center xl:items-center xl:ml-24 mt-10 md:mt-20">
+                    <section id="techStackInfo" className="flex flex-col justify-center xl:items-center mt-10 md:mt-20">
 
-                        <p className="text-2xl lg:text-3xl text-center md:m-auto pb-4">
+                        <p className="text-2xl xl:text-3xl text-center  pb-4">
                             Learning a large number of skills is not my priority, as I like master one thing at a time and only then move on to the next. Because of this, I like to keep my Tech Stack relatively small, but very useful.
                         </p>
 
-                        <div className="flex flex-col mt-10">
+                        <div className="flex flex-col mt-10 xl:ml-24">
                             <h4 className="text-4xl lg:text-5xl kumbh-sans-bold pb-3">Languages & Frameworks</h4>
                             <div className="-ml-16 md:-ml-24 w-screen flex flex-row justify-start sm:justify-center sm:flex-wrap overflow-x-auto sm:overflow-hidden">
                                 {techStackIcons.map((icon) => (
@@ -114,7 +114,7 @@ export default function AboutMe() {
                             </div>
                         </div>
 
-                        <div className="flex flex-col mt-10">
+                        <div className="flex flex-col mt-10 xl:ml-24">
                             <h4 className="text-4xl lg:text-5xl kumbh-sans-bold pb-3">Tools & Software</h4>
                             <div className="-ml-16 md:-ml-24 w-screen flex flex-row justify-start sm:justify-center sm:flex-wrap overflow-x-auto sm:overflow-hidden ">
                                 {toolsAndSoftwareIcons.map((icon) => (
