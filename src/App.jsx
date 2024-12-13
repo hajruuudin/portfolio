@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <BackgroundContainer />
-      <MainContainer />
+      <MainContainer /> 
       <Navbar/>
       <Footer/>
       <Gradient />

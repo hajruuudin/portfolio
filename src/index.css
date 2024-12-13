@@ -20,11 +20,6 @@
     "YOPQ" 300;
 }
 
-/* #backgroundImage{
-  height: 100vh; 
-  background: url('/assets/background.png') center / cover fixed;
-} */
-
 #image1, #image2, #image3, #image4{
   min-width: 100vw;
   scale: 1.2;
@@ -62,8 +57,8 @@
 }
 
 img {
-  max-width: 100vw; /* Prevent images from exceeding the viewport width */
-  object-fit: cover; /* Ensure images scale nicely */
+  max-width: 100vw;
+  object-fit: cover;
 }
 
 
