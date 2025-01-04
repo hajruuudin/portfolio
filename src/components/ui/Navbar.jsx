@@ -13,7 +13,7 @@ export default function Navbar(){
     }
 
     return(
-        <div id="navbarContainer" className="relative -bottom-20 sticky z-999 m-auto w-2/3 xl:w-1/2 h-16 flex flex-row justify-center transition-all duration-500 ease-in-out text-white text-xl kumbh-sans-bold rounded-lg ">
+        <div id="navbarContainer" className="relative -bottom-20 sticky z-999 m-auto w-1/4 xl:w-1/2 h-12 sm:h-16 flex flex-row justify-center items-center transition-all duration-500 ease-in-out text-white text-l sm:text-xl kumbh-sans-bold rounded-lg ">
             <NavLink 
                 to={"/portfolio/about"}
                 onClick={() => windowScroll()}
