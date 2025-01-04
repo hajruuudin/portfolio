@@ -25,7 +25,7 @@ export default function Footer(){
                     </span>
                 </a>
                 <p className="text-white mt-3">Icons by: <a href="https://devicon.dev/" target="new">https://devicon.dev/</a></p>
-                <p className="text-white">Portfolio Design and Implementation by: Me!</p>
+                <p className="text-white text-center">Portfolio Design and Implementation by: Me!</p>
             </div>
             <img className="w-72" src="/portfolio/assets/signature.png" alt="" />
         </footer>

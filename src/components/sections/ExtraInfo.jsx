@@ -16,7 +16,7 @@ export default function ExtraInfo(){
             <div id="extraInfoContainer" className="standard-bg bg-antique-dark-container w-screen standard-padding flex flex-col items-center">
                 <div id="extraInfo" className="w-full xl:w-3/4 pb-20 pt-20 standard-margin">
                     <Heading2 text={"Other Related Info"} />
-                    <p className="text-2xl lg:text-3xl text-center pb-4 pt-4">
+                    <p className="text-xl lg:text-3xl text-center pb-4 pt-4">
                         <br />Below is a number of achievments, academic and personal which I have made during my education. They range from my grades and performances during High-school and Univeristy, along with courses & activities I have completed in my free time. 
                     </p>
                 </div>

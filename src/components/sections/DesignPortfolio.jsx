@@ -33,7 +33,7 @@ export default function DesignPortfolio(){
                 <div id="designInfo" className="standard-padding w-full 2xl:w-3/4 m-auto">
                     <Heading2 text={"Design"} />
                     <section id="basic-info" className="flex flex-col xl:flex-row mt-20">
-                        <p className="xl:order-2 text-2xl lg:text-4xl text-center xl:text-end w-full xl:w-1/2 pb-4">
+                        <p className="xl:order-2 text-xl lg:text-4xl text-center xl:text-end w-full xl:w-1/2 pb-4">
                             As with coding, I value full-on work and project creation more than theoretical learning & small tasks. Design and art is something that has stuck with me ever since high school, and is something I value primarily as a hobby, but also as a career path. My experience in design has led me to have <strong>UI/UX design</strong> as my main choice of creativity, however, I do enjoy various other graphical design tasks, some of which are labeled here. Minimalistic and clean design is my preffered type of design, and it is a recurring theme in all of my projects.
                         </p>
                         <div className="xl:order-1 w-full xl:w-1/2 h-fit m-auto flex flex-row flex-wrap items-center justify-center">
@@ -50,7 +50,7 @@ export default function DesignPortfolio(){
                     <Heading2 text={"Projects & Work"} />
 
                     <section id="basic-info-skyhop" className="flex flex-col items-center mt-20">
-                        <div className="-ml-12 sm:ml-0 w-screen sm:w-full h-full m-auto flex flex-row items-center justify-start xl:justify-center overflow-x-auto">
+                        <div className="-ml-12 hidden sm:flex sm:ml-0 w-screen sm:w-full h-full m-auto flex flex-row items-center justify-start xl:justify-center overflow-x-auto">
                             {DesignImages.skyhop.map((image) => (
                                 <ThumbnailImageSmall src={image} />
                             ))}
@@ -62,7 +62,7 @@ export default function DesignPortfolio(){
                                 <SkillIcon skill={"Wireframes"} level={2}/>
                                 <SkillIcon skill={"Focus on Hierarchy"} level={2}/>
                             </div>
-                            <p className="text-2xl 2xl:text-4xl text-center pb-4">
+                            <p className="text-xl 2xl:text-4xl text-center pb-4">
                             SkyHop is an application designed as a two-person project for a Univeristy Course. It aims to solve the problems people have when it comes to making plans for travel, as it provides both accomodation and travel method booking in one go, all bundled up with a simple User Interface. The main goal of this application concept is to create a UI that is as simple as possible, while maintaining a modern look, making it easy to use and effective at its main goal. The concepts which are the focus in this project are:<strong> Minimal UI design, Typography, Custom Logo desing, Prototyping and Wireframing</strong>, among other...
                             </p>
                         </div>
@@ -76,7 +76,7 @@ export default function DesignPortfolio(){
                                 <SkillIcon skill={"Complex Prototyping"} level={2}/>
                                 <SkillIcon skill={"Focus on Hierarchy"} level={2}/>
                             </div>
-                            <p className="text-2xl 2xl:text-4xl text-center pb-4">
+                            <p className="text-xl 2xl:text-4xl text-center pb-4">
                             This is a work in progress design for a large-scale appliacion aimed at users who have problems tracking and finding entertainment. MediaSphere is a bundled up tracker for Movies, Series, Books & Games, which allows users to browse and find entertainment of these categories, track their progress, add to a wishlist, view where they can consume that entertainment and similar. The application is planned to be designed thoroughly, which includes: <strong>low and high fidelity Wireframes, Layouts, Prototypes, Screen design for both Web and Mobile screens...</strong>
                             </p>
                         </div>
